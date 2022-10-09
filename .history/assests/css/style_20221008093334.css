@@ -1,0 +1,24 @@
+* {
+    font-family:Verdana, Geneva, Tahoma, sans-serif, 'Poppins';
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.logo {
+    display: block;
+    background-image: cover;
+    position: absolute;
+    transform: scale(50%);
+}
+.button {
+    display: block;
+    width: 30px;
+    height: 10px;
+    border-radius: 20px;
+    background-color: rgb(59, 55, 55);
+}

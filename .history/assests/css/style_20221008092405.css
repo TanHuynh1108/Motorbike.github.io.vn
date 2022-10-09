@@ -1,0 +1,17 @@
+* {
+    font-family:Verdana, Geneva, Tahoma, sans-serif, 'Poppins';
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+header {
+    margin: 0;
+    padding: 0;
+}
+.logo {
+    display: block;
+   
+    background-image: cover;
+    position: relative;
+    transform: scale(50%);
+}

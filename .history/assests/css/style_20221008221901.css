@@ -1,0 +1,74 @@
+* {
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container {
+    display: block;
+    height: 100vh;
+    width: 100%;
+    padding: 20px 5%;
+    background-image: url(../css/image/BMW1.png);
+    background-size: cover;
+    background-position: center;
+}
+header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    position: relative;
+}
+header .logo {
+    display: block;
+}
+.logo-img {
+    background-size: cover;
+    width: 400px;
+}
+header .button {
+    display: block;
+    border-radius: 50px;
+    background-color: rgb(59, 55, 55);
+    padding: 30px 95px;
+    cursor: pointer;
+    margin: 10px 50px;
+}
+.text {
+    color: #fff;
+    font-size: 30px;
+    text-decoration: none;
+  
+}
+nav {
+    display: flex;
+    align-items: center;
+    margin-top: 100px;
+}
+.heading-brand {
+    font-size: 60px;
+    color: red;
+    font-weight: 700;
+}
+.heading-type {
+    font-size: 150px;
+    color: #000;
+    font-weight: 600;
+}
+.sub-heading {
+    font-size: 30px;
+    color: #000;
+    max-width: 675px;
+    margin-top: 20px;
+    font-weight: 500;
+    opacity: 0.7;
+}
+.choose-color {
+    display: block;
+    margin-top: 30px;
+}
+.text-color {
+    font-size: 50px;
+    color: #000;
+    max-width: 675px;
+}
